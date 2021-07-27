@@ -1,6 +1,12 @@
+// Run just once in a Roam daily Notes folder with files such as: December 31st, 2016.md or April 1st, 2016.md
+
 const fs = require('fs');
-const source_path = './old_files';
-const target_path = './new_files';
+var replace = require("replace");
+
+const source_path = './obsidian/journals'; // Source Daily Notes path
+const target_path = './obsidian/journals'; // Destination Daily notes path
+
+const obsidian_path = '/mnt/c/Users/Ricardo/Documents/ricardo/obsidian/';
 
 const arrayMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
 const arrayDays = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th', '13th', '14th', '15th', '16th', '17th', '18th', '19th', '20th', '21st', '22nd', '23rd', '24th', '25th', '26th', '27th', '28th', '29th', '30th', '31st'];
@@ -43,7 +49,16 @@ function renameFile(old_filename, new_filename) {
   const new_file = target_path + '/' + new_filename;
   console.log('Renaming ' + old_file + ' to ' + new_file);
   fs.rename(old_file, new_file, function(err) {
-    if ( err ) console.log('ERROR: ' + err);
+    if ( err ) console.log('ERROR: ' + err)
+    else {
+      replace({
+        regex: old_filename.substring(0, old_filename.indexOf('.')),
+        replacement: new_filename.substring(0, new_filename.indexOf('.')),
+        paths: [obsidian_path],
+        recursive: true,
+        silent: false,
+      });
+    };
   });
  
 }
