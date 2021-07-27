@@ -1,0 +1,38 @@
+- [[Morning Routine]]
+    - [[What am I grateful for?]]
+        - Family is healthy
+        - We all have stable jobs
+        - Pedro is growing well
+    - [[What do I want the today's highlight to be?]]
+        - Explore DB migration <> Tableau
+    - [[Daily Affirmations]]
+        - I can talk to people as a coach/psychoanalyst
+        - I can move on at Psicanálise Course...
+        - I can help many people in Gorila
+    - [[What am I thinking of?]]
+        - Put more things here in Roam
+    - [[What am I worried about?]]
+        - Will it be possible to connect Tableau to Mongo (DocumentDB)
+    - [[What am I excited about?]]
+        - Roam things
+        - [[Terapia Online]]
+        - 
+- [[Thoughts]]
+    - Improve Terapia Online page (maybe a single page, not a path in equilatero) and Contact Form (maybe Google Form)
+- [[Evening Reflection]]
+    - [[Daily Logs]]
+        - Meeting with old friends
+        - Danilo test draft was made approved by him in [[Notion]]
+            - https://www.notion.so/alamino/Teste-Gorila-Full-Stack-Integra-o-d6a67dfe968f4f36a72ef904f0734574
+        - 
+    - [[Amazing things that happened]]
+        - Wife is in a better mood
+    - [[What I've learned]]
+        - To use Roam!!!!
+    - [[What could I have done better?]]
+        - Let my kid alone in his internet classes
+- [[Thoughts]]
+    - Export Equilatero.com.br [[Terapia Online]] from 8b
+    - Put WhatsApp Contact in [[Terapia Online]]
+    - Use Egoico.com.br as [[Terapia Online]] site.
+    - 

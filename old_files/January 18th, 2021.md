@@ -1,0 +1,94 @@
+- Entrevistas
+    - Patricia
+        - 
+        - Ganhava 11k
+        - Pode sair se surgir algo melhor
+        - 
+    - Natalia
+        - 
+        - Paciente
+        - Simpática
+        - Negra
+        - Pensando em atuar em desenvolvimento
+        - 
+    - Monique
+        - 
+        - Gosta de ajudar
+        - Baixa escolaridade
+        - Não entendeu o que o Gorila faz 😕
+        - Pouco conhecimento em Office
+        - Inglês - Nova Zelândia
+        - Metódica
+    - Janaina
+        - 
+        - Aprender
+        - Matemática
+        - Conhece o Jira
+        - Ansiedade
+        - Perguntou
+    - Rosa
+        - 
+        - Parece muito simples
+        - Não tem uma boa fala
+        - Pedagogia
+        - Negra
+    - Erica
+        - 
+        - SmartBrain
+        - Humilde
+        - Com experiência
+        - Nervosa na entrevista
+    - Marcia
+        - 
+        - Calma
+        - 1 ano sem trabalhar
+        - Marido trader
+        - Já tem experiência em atendimento
+        - Fala bem
+        - Último emprego colégio - Atendimento dos pais
+        - Acabando pedagogia
+        - Office ok
+    - Tatiane - top 1
+        - 
+        - Zendesk
+        - 36 anos
+        - Muita experiência
+        - Autêntica
+        - Sabe qual o seu perfil, seus limites
+        - Está procurando algo na área
+        - Calma
+- [[Gorila]]
+    - Reunião
+        - Upload de logotipo de B2B amanhã em PROD
+        - Julio já instalou o ambiente Gorila - Início da Importação de Notas de Corretagem dentro do Gorila
+        - 
+        - Import Excel Fundos
+        - Jerome, Fabio XLS
+        - Questões CEI
+        - Volume e complexidade atual já está complicado - Vaga
+        - XP preocupa
+    - **Questões integração XP**
+        - Caso fique em um estado "travado" quanto tempo o usuário deve aguardar ou devemos avisar o Magilla?
+            - Desconectar e tentar reconectar na Web, não adianta tentar no app - Ver o estado de erro.
+            - Suporte acessa e desconecta. E pede pra pessoa reconectar. 
+        - Qual o tempo máximo para o usuário esperar?
+            - Passou de 15 minutos.
+        - O usuário pode complementar os investimentos na mão da XP?
+            - Pode complementar manualmente.
+        - Tem Caixa?
+            - Desligado
+        - **Erro na tela**
+            - Às vezes ações não vêm. Mas tem feedback na tela para sincronizar novamente.
+            - Erro comum
+                - Vem algumas ações e outras não vem. Vai informar o erro pro usuário.
+            - Só tentar de novo se tem msg de erro.
+        - Integração da XP só vai completar **o que não estiver** na carteira manual.
+        - CEI fica e XP não entra.
+        - Quanto tempo depois de operar aparece no Gorila?
+            - Tesouro Direto demora de 1 a 2 dias
+            - RV - 5 a 10 min de executar ordem.
+            - Após aparecer a nota de negociação no site da XP
+            - 
+        - Transferência de custódia não traz. Boletar a venda com preço de fechamento do dia...
+        - Se não vier nenhum desses 4 itens abaixo.... Pedir para a pessoa entrar em contato para testar a nova conexão, entraremos em contato.
+            - ![Image](https://firebasestorage.googleapis.com/v0/b/firescript-577a2.appspot.com/o/imgs%2Fapp%2FRica%2F2CtueYtcMa.png?alt=media&token=ea6ce2e7-4eb7-49b1-a1c2-701945ffb04c)

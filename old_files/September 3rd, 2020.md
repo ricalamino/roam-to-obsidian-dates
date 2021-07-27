@@ -1,0 +1,32 @@
+- [[Gorila]]
+    - **O que fiz ontem?**
+        -  
+    - **O que preciso fazer hoje?**
+        - Conversar com Diego
+        - Conectar B2B2C integrado com manual (Desconectar)
+            - Tudo em lote
+        - Criação de usuários Gorila em lote
+            - 
+    - **O que me preocupa hoje?**
+        - Entrevistas
+        - Decidir algum dev
+    - **O que me empolga hoje?**
+        -  
+    - [[Projetinho (KISS)]]
+        - Projeto [[Gorila]]
+            - **Objetivo**
+                - Testar a ideia de um projeto KISS. Experimentar.
+            - **Pontos positivos**
+                - Serve para pensarmos melhor na arquitetura do front.
+                - Investigamos como é possível acoplar funcionalidades. 
+                - Testamos e não é tão simples, não parece ser um bom approach.
+            - **Problemas**
+                - Criar outro repo/app (mais um lugar para dar manutenção)?
+                - Quem ficará responsável pela nova feature?
+                - O novo projeto acaba sendo um novo "componente" mal pensado. Mas queremos diminuir a componentização?
+                - Não resolve o problema de mexer nas telas do app, caso precise colocar uma feature nas telas existentes ou modificar/arrumar uma feature.
+            - **Soluções **
+                - Refatorar todo o app.
+                - Fazer a componentização de uma forma mais clara. Projeto "Componentes".
+                - 
+        - 
