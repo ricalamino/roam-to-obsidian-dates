@@ -1,32 +1,26 @@
-// Run just once in a Roam daily Notes folder with files such as: December 31st, 2016.md or April 1st, 2016.md
-// The script will rename the files to match the format: 2016_12_31.md or 2016_04_01.md
+// This script renames all files and occurences in the obsidian folder to the new naming from _ underline to - dash.
 
 const fs = require('fs');
 var replace = require("replace");
 
-const source_path = './obsidian/journals'; // Source Daily Notes path
-const target_path = './obsidian/journals'; // Destination Daily notes path
+const source_path = '/mnt/c/Users/Ricardo/Documents/ricardo/obsidian/journals'; // Source Daily Notes path
+const target_path = '/mnt/c/Users/Ricardo/Documents/ricardo/obsidian/journals'; // Destination Daily notes path
 
 const obsidian_path = '/mnt/c/Users/Ricardo/Documents/ricardo/obsidian/'; // Replace references in this folder
 
-const arrayMonths = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-const arrayDays = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th', '11th', '12th', '13th', '14th', '15th', '16th', '17th', '18th', '19th', '20th', '21st', '22nd', '23rd', '24th', '25th', '26th', '27th', '28th', '29th', '30th', '31st'];
-
 function getYear(filename) {
-  const year = filename.substring(filename.indexOf(',') + 2, filename.indexOf('.'));
+  const year = filename.substring(0, 4);
   return year;
 }
 
 function getMonth(filename) {
-  const month = filename.substring(0, filename.indexOf(' '));
-  const monthNumber = arrayMonths.indexOf(month)+1;
-  return monthNumber < 10 ? '0' + monthNumber : monthNumber;
+  const month = filename.substring(5, 7);
+  return month;
 }
 
 function getDay(filename) {
-  const day = filename.substring(filename.indexOf(' ') + 1, filename.indexOf(','));
-  const dayNumber = arrayDays.indexOf(day)+1;
-  return dayNumber < 10 ? '0' + dayNumber : dayNumber;
+  const day = filename.substring(8, 10);
+  return day;
 }
 
 function readFiles(source_path) {
@@ -41,7 +35,7 @@ function mountNewName(filename) {
   const month = getMonth(filename);
   const day = getDay(filename);
   const year = getYear(filename);
-  const new_name = year + '_' + month + '_' + day + '.md';
+  const new_name = year + '-' + month + '-' + day + '.md';
   return new_name;
 }
 
